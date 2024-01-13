@@ -1,0 +1,250 @@
+html, body {
+	margin:      10px 10px 10px 10px;
+	line-height: 1.1;
+	font-family: Arial, sans-serif;
+	font-size:   12px;
+	color:       #333333;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.warning {
+	color: red;
+}
+
+a {
+	color:           darkblue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	clear: both;
+	width: 100%;
+}
+
+.header .nav li {
+	float:        left;
+	margin-right: 5px;
+	list-style:   none;
+}
+
+.header .nav li a {
+	display:       block;
+	padding-right: 15px;
+	padding-left:  10px;
+	font-size:     14px;
+}
+
+.header .nav li a:hover {
+	background-color: lightblue;
+}
+
+.menu {
+	clear: both;
+}
+
+.menu table {
+	display:       none;
+	position:      fixed;
+	z-index:       99;
+	margin-top:    5px;
+	border-top:    1px solid #CCCCCC;
+	border-right:  3px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+.menu table thead tr th {
+	padding:          7px 30px 7px 30px;
+	background-color: #F9F9F9;
+	border-bottom:    1px solid #CCCCCC;
+	border-left:      1px solid #CCCCCC;
+	font-size:        14px;
+	font-weight:      bold;
+	text-align:       left;
+	white-space:      nowrap;
+}
+
+.menu table tbody tr td {
+	padding:          7px 30px 7px 30px;
+	background-color: #FFFFFF;
+	border-bottom:    1px solid #CCCCCC;
+	border-left:      1px solid #CCCCCC;
+	font-size:        14px;
+}
+
+.hr {
+	clear:         both;
+	margin-bottom: 20px;
+	padding-top:   10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.main {
+	clear: both;
+	width: 100%;
+}
+
+.main h2 {
+	margin-bottom: 20px;
+	font-size:     20px;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size:     15px;
+}
+
+.main .options {
+	padding:          20px 20px 20px 20px;
+	border:           1px solid #CCCCCC;
+	background-color: #F9F9F9
+}
+
+.main .options .label {
+
+}
+
+.main .options .date {
+	margin-bottom: 10px;
+	width:         150px;
+	padding:       5px 5px 5px 5px;
+	border:        1px solid #CCCCCC;
+	font-family:   Arial, sans-serif;
+	font-size:     15px;
+	color:         #333333;
+}
+
+.main .options .text{
+	margin-bottom: 10px;
+	width:         150px;
+	padding:       5px 5px 5px 5px;
+	border:        1px solid #CCCCCC;
+	font-family:   Arial, sans-serif;
+	font-size:     15px;
+	color:         #333333;
+}
+
+.main input.query {
+	width:       850px;
+	padding:     5px 5px 5px 5px;
+	border:      1px solid #CCCCCC;
+	font-family: Arial, sans-serif;
+	font-size:   15px;
+	color:       #333333;
+}
+
+.main input.button {
+	padding:     5px 5px 5px 5px;
+	border:      1px solid #CCCCCC;
+	font-family: Arial, sans-serif;
+	font-size:   15px;
+	color:       #333333;
+}
+
+.main input.button:hover {
+	cursor: pointer;
+	border: 1px solid #000000;
+}
+
+.main .grid {
+	margin-bottom: 20px;
+	width:         100%;
+	border-top:    1px solid #CCCCCC;
+	border-right:  1px solid #CCCCCC;
+}
+
+.main .grid thead tr th {
+	padding:          5px 20px 5px 10px;
+	background-color: #F9F9F9;
+	border-bottom:    1px solid #CCCCCC;
+	border-left:      1px solid #CCCCCC;
+	line-height:      1.7;
+	font-size:        14px;
+	font-weight:      bold;
+	text-align:       left;
+	white-space:      nowrap;
+}
+
+.main .grid thead tr th input.filter {
+	width:       80%;
+	max-width:   150px;
+	padding:     2px 5px 2px 5px;
+	border:      1px solid #CCCCCC;
+	font-family: Arial, sans-serif;
+	font-size:   13px;
+	color:       #333333;
+}
+
+.main .grid tbody tr td {
+	padding:       5px 10px 5px 10px;
+	border-bottom: 1px solid #CCCCCC;
+	border-left:   1px solid #CCCCCC;
+	font-size:     14px;
+}
+
+.main .grid tbody .even {
+	background-color: #F9F9F9;
+}
+
+/* DataTables adjustments */
+
+.dataTables_filter {
+	margin-bottom: 15px;
+	font-size:     14px;
+}
+
+.dataTables_filter input {
+	margin-left: 10px;
+	width:       200px;
+	padding:     3px 5px 3px 5px;
+	border:      1px solid #CCCCCC;
+	font-family: Arial, sans-serif;
+	font-size:   14px;
+	color:       #333333;
+}
+
+.dataTable thead .sorting,
+.dataTable thead .sorting_asc,
+.dataTable thead .sorting_desc,
+.dataTable thead .sorting_asc_disabled,
+.dataTable thead .sorting_desc_disabled {
+	cursor:              pointer;
+	*cursor:             hand;
+	background-repeat:   no-repeat;
+	background-position: center right;
+}
+
+.dataTable thead .sorting {
+	background-image: url(images/sort_both.png);
+}
+
+.dataTable thead .sorting_asc {
+	background-image: url(images/sort_asc.png);
+}
+
+.dataTable thead .sorting_desc {
+	background-image: url(images/sort_desc.png);
+}
+
+.dataTable thead .sorting_asc_disabled {
+	background-image: url(images/sort_asc_disabled.png);
+}
+
+.dataTable thead .sorting {
+	background-image: url(images/sort_desc_disabled.png);
+}
+
+.dataTables_info {
+	font-size: 14px;
+	color:     #333333;
+}
